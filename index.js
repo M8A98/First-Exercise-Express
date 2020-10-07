@@ -24,7 +24,7 @@ router.post('/adios',function(req,res){
 })
 
 router.all('/*', (req, res) => {
-    res.send('no hay nada aquí')
+    res.send('NO HAY NADA AQUÍ')
   })
 
 app.use(router)
