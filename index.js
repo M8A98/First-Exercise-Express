@@ -23,8 +23,8 @@ router.post('/adios',function(req,res){
     res.send("Adios DESDE EXPRESS CON POST !")
 })
 
-router.all('/*', (req, res) => {
-    res.send('NO HAY NADA AQUÍ')
+router.all('*', (req, res) => {
+    res.send('no hay nada aqui')
   })
 
 app.use(router)
